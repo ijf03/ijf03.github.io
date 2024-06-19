@@ -1,14 +1,13 @@
-
 import { FaLinkedin, FaGithub, FaInstagram, FaDiscord } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 export const Navbar = () => {
   return (
-    <nav className="bg-purpureus lmb-20 flex items-center justify-between">
+    <nav className="mb-10 sm:mb-20 flex items-center justify-between">
         <div className="flex flex-shrink-0 items-center">
-            <a className="text-white text-4xl font-extrabold mx-5 px-5 py-2">IJF</a>
+            <a className="text-tiffany_blue text-xl sm:text-4xl font-extrabold mx-2 sm:mx-5 px-2 sm:px-5 py-2">IJF Projects</a>
         </div>
-        <div className="m-8 flex items-center justify-center gap-4 text-2xl text-white">
+        <div className="m-4 sm:m-8 flex items-center justify-center gap-3 sm:gap-8 text-xl sm:text-4xl text-tiffany_blue">
             <FaLinkedin/>
             <FaGithub/>
             <FaInstagram/>
