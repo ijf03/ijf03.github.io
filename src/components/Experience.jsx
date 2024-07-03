@@ -11,14 +11,14 @@ const Experience = () => {
                         <p className='mb-2 text-sm text-neutral-300'>{experience.year}</p>
                     </div>
                     <div className='w-full max-w-xl lg:w-3/4'>
-                        <h6 className='mb-2 font-semibold'>
-                            {experience.role} - <span className='text-sm text-peach'>
+                        <h6 className='mb-2 font-semibold text-peach'>
+                            {experience.role} - <span className='text-sm text-mauve'>
                                 {experience.company}
                             </span>
                         </h6>
                         <p className='mb-4 text-neutral-300'>{experience.description}</p>
                         {experience.technologies.map((tech, index) => (
-                            <span key={index} className='mr-2 mt-4 rounded bg-mauve px-2 py-1 text-sm font-medium text-neutral-950'>{tech} </span>
+                            <span key={index} className='mr-2 mt-4 rounded bg-mauve-700 px-2 py-1 text-sm font-medium text-neutral-950'>{tech} </span>
                         
                         ))}
                     </div>
