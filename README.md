@@ -1,5 +1,5 @@
 # IJF Projects Portfolio
-Live on: https://ijf03.github.io/
+Live on: https://www.ijfprojects.com/
 
 Uses React, Vite, and Tailwind CSS.
 
