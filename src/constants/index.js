@@ -115,7 +115,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Melbourne, Australia | Cebu, Philippines",
+  address: "Melbourne, Australia || Cebu, Philippines",
   phoneNo: "+12 4555 666 00 ",
   email: "sabi.j.fernan@gmail.com",
 };
