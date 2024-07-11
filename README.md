@@ -1,4 +1,7 @@
-# React + Vite
+# IJF Projects Portfolio
+Live on: https://ijf03.github.io/
+
+Uses React, Vite, and Tailwind CSS.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
