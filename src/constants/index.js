@@ -1,4 +1,4 @@
-import BubbleTeaStore from "../assets/projects/BubbleTeaStore.png";
+import BubbleTeaStore from "../assets/projects/BubbleTeaShop.png";
 import WG from "../assets/projects/WG.png";
 import ToDoList from "../assets/projects/ToDoList.png";
 
@@ -80,9 +80,9 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: BubbleTeaStore,
     code_link:"https://github.com/ijf03/Bubble_Tea_Store",
-    live_link:"",
+    live_link:"https://capstone-3-fe7qz7dyr-isabelle-fernans-projects.vercel.app/products",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication. Login with Admin123",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express.js"],
   },
   {

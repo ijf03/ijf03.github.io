@@ -17,8 +17,6 @@ const Contact = () => {
                 transition={{duration: 0.5}}
                 className="text-center tracking-tighter">
                 <p className="my-4">{CONTACT.address}</p>
-                {/* <p className="my-4">{CONTACT.phone}</p>
-                <a href="#" className="border-b">{CONTACT.email}</a> */}
                 <div className="m-4 sm:m-8 flex items-center justify-center gap-3 sm:gap-8 text-xl sm:text-4xl text-mauve">
                 <motion.a
                 whileHover={{ scale: 1.2 }}
