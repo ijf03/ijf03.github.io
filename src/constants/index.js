@@ -1,11 +1,10 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import BubbleTeaStore from "../assets/projects/BubbleTeaStore.png";
+import WG from "../assets/projects/WG.png";
+import ToDoList from "../assets/projects/ToDoList.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Driven by Passion, Defined by Code.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated web developer currently pursuing a Bachelor of Computer Science at Monash University, specializing in advanced computer science, web development, and 3D animation. My academic rigor is matched by practical experience, having built full-stack web applications using the MERN stack. My approach combines deep technical skills with a creative problem-solving mindset, aiming to deliver innovative and efficient solutions in the digital space.`;
 
 export const EDUCATION = [
   {
@@ -54,63 +53,55 @@ export const EDUCATION = [
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - Present",
+    role: "Head of Marketing; operations member",
+    company: "Monash Nexus of Emerging Technologies (Student Team)",
+    description: `Created the rebranding colorscheme, logo and assets for the team. Developed marketing strategies to promote the team and its projects. Managed social media accounts and created engaging content to attract new members and sponsors. Collaborated with other teams and organizations to organize events and workshops.`,
+    technologies: ["Soft Skills"],
+  },
+  {
+    year: "2021 - Present",
+    role: "Esports Commentator & Events Host",
+    company: "Freelance; Tier One Entertainment",
+    description: `Hosted and commentated esports events for various games, including Call of Duty Mobile, Valorant, and others. Conducted interviews with professional players and industry experts. Had the previlage to work with Tier One Entertainment, Garena, ESL, MagicCraft (NFT), Dubai Police, Four04 Esports and several others.`,
+    technologies: ["Soft Skills"],
   },
   {
     year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: "Head of Clan",
+    company: "Dovahkiin Esports",
+    description: `Managed multiple admins, content creators, teams and players in the organization (200+ members). Organized and hosted tournaments, events, and community activities. Developed strategies to grow the community and improve player engagement. Collaborated with sponsors and partners to secure sponsorships and funding for the organization.`,
+    technologies: ["Soft Skills"]
   },
 ];
 
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
-    image: project1,
+    image: BubbleTeaStore,
+    code_link:"https://github.com/ijf03/Bubble_Tea_Store",
+    live_link:"",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express.js"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Esports Portfolio Website",
+    image: WG,
+    code_link:"https://github.com/ijf03/WG",
+    live_link:"https://wasabigaming03.com/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A personal esports portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "JavaScript", ],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "To-do List",
+    image: ToDoList,
+    code_link:"https://github.com/ijf03/Todo_List",
+    live_link:"https://ijf03.github.io/Todo_List/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "React", "Typescript", "Vite"],
   },
 ];
 
