@@ -53,6 +53,12 @@ export const EDUCATION = [
 
 export const EXPERIENCES = [
   {
+    year: "2025 - Present",
+    role: "Coding Coach",
+    company: "Skills Samurai Elsternwick",
+    description: `Coached students in coding, programming concepts, and mathematics. Also taught holiday camps for 3D modelling, Programming, Science camps and etc. Assisted students in building projects and solving coding challenges. Fostered a positive and engaging learning environment.`,
+    technologies: ["Python", "Scratch", "Java", "Lua", "Tinkercad", "Flashprint", "Soft Skills"],
+  },{
     year: "2024 - Present",
     role: "Head of Marketing; operations member",
     company: "Monash Nexus of Emerging Technologies (Student Team)",
