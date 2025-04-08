@@ -8,14 +8,14 @@ export const ABOUT_TEXT = `I am a dedicated web developer currently pursuing a B
 
 export const EDUCATION = [
   {
-    year: "February 2024 — December 2026 (Expected)",
+    year: "February 2024 - December 2026 (Expected)",
     course: "Bachelor of Computer Science - Specialization in Advanced Computer Science; Minor in Web Development; Minor in 3D and Animation",
     school: "Monash University",
     description: `Developed a strong foundation in computer science principles and advanced programming concepts. Specialized in web development and 3D animation. Completed projects in machine learning, artificial intelligence, and game development.`,
     technologies: ["Python", "HTML", "JavaScript", "MARIE (Assembly Code)"],
   },
   {
-    year: "August 2023 — October 2026",
+    year: "August 2023 - October 2026",
     course: "Full-stack Web Development (MERN STACK) ",
     school: "Zuitt Web Developer Program",
     description: `Developed full-stack web applications using the MERN stack. Built RESTful APIs and integrated with MongoDB databases. Implemented user authentication and authorization using JWT tokens.`,
@@ -60,7 +60,7 @@ export const EXPERIENCES = [
     technologies: ["Python", "Scratch", "Java", "Lua", "Tinkercad", "Flashprint", "Soft Skills"],
   },{
     year: "2024 - Present",
-    role: "Head of Marketing; operations member",
+    role: "Head of the Marketing Department; operations member",
     company: "Monash Nexus of Emerging Technologies (Student Team)",
     description: `Created the rebranding colorscheme, logo and assets for the team. Developed marketing strategies to promote the team and its projects. Managed social media accounts and created engaging content to attract new members and sponsors. Collaborated with other teams and organizations to organize events and workshops.`,
     technologies: ["Soft Skills"],
@@ -111,8 +111,66 @@ export const PROJECTS = [
   },
 ];
 
+export const COMMUNITY = [
+  {
+    title: "Homes of Hope",
+    role: "Founder",
+    social_link:"https://www.facebook.com/HomesofHopeCebu/",
+    description:
+      "My personal charity organization that aims to help those affected by Super Typhoon Rai (Also called Odette in the Philippines) in Cebu, Philippines. We provide materials to help rebuild homes for over 100 families in Cebu.",
+    category: ["outreach"],
+  },
+  {
+    title: "Drop Your Share (DYS) Donation Drive",
+    social_link:"https://www.facebook.com/DropYourShare",
+    description:
+      "DYS is a service-learning project led by a team of Grade 11 students with an aim to help our local communities whom the Cebu International School (CIS) has supported over the years. Our goal is to continue supporting and strengthening these partnerships, highlighting the principles of service-learning that CIS hones among its students despite the barriers presented by the pandemic. ",
+    category: ["outreach", "school-based" ],
+  },
+  {
+    title: "Cebu International School School Assembly Team ",
+    role: "Host & Editor",
+    description:
+      "Hosted school wide events and assemblies. Edited videos for the school assembly team. Collaborated with other students to create engaging content for the school community.",
+    category: ["school-based"],
+  },
+  {
+    title: "Cebu International School Debate Team",
+    role: "Lead",
+    description:
+      "Organized practice sessions and workshops for team members. Taught debate techniques and strategies to new members.",
+    category: ["school-based"],
+  },
+  {
+    title: "Play4Play Esports",
+    role: "Head",
+    description:
+      "Organized livestreamed scrimmages and tournaments for the organization. Managed social media accounts and created engaging content to attract new members. Collaborated with other teams and organizations to organize events and workshops.",
+    category: ["school-based"],
+  },
+  {
+    title: "Dovahkiin Esports",
+    role: "Head of Clan",
+    social_link:"https://www.facebook.com/DovahkiinEsports",
+    description:
+      "Lead an organization with 200+ members. Organized and hosted tournaments, events, and community activities. Developed strategies to grow the community and improve player engagement. Collaborated with sponsors and partners to secure sponsorships and funding for the organization.",
+    category: ["school-based"],
+  },
+  {
+    title: "HeART Reach Outreach Program",
+    role: "Founder",
+    description:
+      "Lead a team of students who volunteered to teach art to children in the local community. Organized art workshops and activities for children. The team also raised funds to support the program and provide art supplies, food and basic necessities for the children.",
+    category: ["school-based"],
+  },
+  
+];
+
+
 export const CONTACT = {
   address: "Melbourne, Australia || Cebu, Philippines",
   phoneNo: "+12 4555 666 00 ",
   email: "sabi.j.fernan@gmail.com",
 };
+
+
